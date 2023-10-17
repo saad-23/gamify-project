@@ -40,7 +40,7 @@ spacy-loggers
 srsly
 thinc
 
-
+flask-cors
 
 tzdata
 urllib3
