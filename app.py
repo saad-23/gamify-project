@@ -1,10 +1,14 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import synonyms_get
 import re
+
+
 
 #nlp = spacy.load("en_core_web_md")
 
 app= Flask (__name__)
+CORS(app)
 #nlp = spacy.load('en_core_web_sm')
 
 @app.route('/')
